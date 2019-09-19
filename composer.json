@@ -1,0 +1,19 @@
+{
+    "autoload":{
+        "psr-4":{
+            "app\\":"app",
+            "core\\":"core"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/PabloVSouza/php-activerecord"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^4.0",
+        "php-activerecord/php-activerecord": "dev-Master",
+        "firebase/php-jwt": "^5.0"
+    }
+}

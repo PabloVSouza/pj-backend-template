@@ -1,0 +1,13 @@
+options -indexes
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?p=$1 [QSA]
+# php -- BEGIN cPanel-generated handler, do not edit
+# Defina o pacote “ea-php71” como a linguagem padrão de programação “PHP”.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php71 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

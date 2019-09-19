@@ -1,0 +1,7 @@
+/*Fontes:*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Passion+One|Amiri|Lato");
+
+/*CSS das Páginas*/
+@import url("home/home.css");
+@import url("login/login.css");
+@import url("venda/venda.css");
