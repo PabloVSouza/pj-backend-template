@@ -9,31 +9,25 @@ class Parametros
 
   //Parametros de autenticação do JWT
   public static $jwt_key = "";
-  public static $jwt_iss = "http://pjinformatica.org";
-  public static $jwt_aud = "http://pjinformatica.org";
+  public static $jwt_iss = "ISS do JWT";
+  public static $jwt_aud = "AUD do JWT";
 
   public function __construct()
   {
 
-    // Banco de dados Integrator
-    // $host     = 'mysql.pjinformatica.org';
-    // $user     = 'pjinform_dev';
-    // $pass     = 'a1b2c3d4e5';
-    // $database = 'pjinform_venda_remota';
+    // Banco de dados
+    $host     = 'IP SERVIDOR';
+    $user     = 'USER MYSQL';
+    $pass     = 'SENHA MYSQL';
+    $database = 'DB MYSQL';
 
-    // Banco de dados local
-    // $host     = '127.0.0.1';
-    // $user     = 'root';
-    // $pass     = 'pjinfo1779';
-    // $database = 'venda_web';
-
-    // Banco de dados Heroku
-    $url      = getenv('JAWSDB_MARIA_URL');
-    $dbparts  = parse_url($url);
-    $host     = $dbparts['host'];
-    $user     = $dbparts['user'];
-    $pass     = $dbparts['pass'];
-    $database = ltrim($dbparts['path'], '/');
+    // Banco de dados se for Heroku
+    // $url      = getenv('JAWSDB_MARIA_URL');
+    // $dbparts  = parse_url($url);
+    // $host     = $dbparts['host'];
+    // $user     = $dbparts['user'];
+    // $pass     = $dbparts['pass'];
+    // $database = ltrim($dbparts['path'], '/');
 
 
     //PHP Active Record
