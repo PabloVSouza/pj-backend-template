@@ -1,7 +1,7 @@
-# Sistema de backend em php com MVC (Camada View abstraida para usar frontends externos)
+# Sistema de backend simples em php com MVC (Camada View abstraida para usar frontends externos)
 
- - Inclui sistema de ORM (PHPActiveRecord)
- - Sistema de rotas com /controller/method/parameter
+ - Sistema de ORM (PHPActiveRecord)
+ - Sistema de rotas com o padrão /controller/method/parameter
  - Autenticação por JWT
  
  ## Configuração do banco de dados
