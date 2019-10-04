@@ -2,6 +2,7 @@
 
  - Inclui sistema de ORM (PHPActiveRecord)
  - Sistema de rotas com /controller/method/parameter
+ - Autenticação por JWT
  
 ## Instalação
 
