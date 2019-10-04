@@ -4,6 +4,17 @@
  - Sistema de rotas com /controller/method/parameter
  - Autenticação por JWT
  
+ ## Configuração do banco de dados
+
+app/classes/Parametros.php
+```
+    // Banco de dados
+    $host     = 'IP SERVIDOR';
+    $user     = 'USER MYSQL';
+    $pass     = 'SENHA MYSQL';
+    $database = 'DB MYSQL';
+```
+ 
 ## Instalação
 
 ```
